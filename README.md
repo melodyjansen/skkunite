@@ -1,4 +1,4 @@
-# SKKUnite 🌍
+# SKKUnite (2023) 🌍
 
 **A platform connecting international and Korean students at Sungkyunkwan University**
 
