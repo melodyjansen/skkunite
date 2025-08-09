@@ -1,53 +1,63 @@
-# Getting Started with Create React App
+# SKKUnite 🌍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A platform connecting international and Korean students at Sungkyunkwan University**
 
-## Available Scripts
+🔗 **Live Demo:** https://skkunite.vercel.app/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SKKUnite is a web platform prototype designed to help international students at Sungkyunkwan University (SKKU) in Seoul connect with each other and with Korean students. Built as part of a software engineering course at SKKU in 2023, this project explores the concept of creating a social platform for cross-cultural student connections.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### User Registration & Profiles
+- Student registration with preference survey
+- Profile creation system (frontend-only, no persistent storage)
+- Login interface for platform access
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Student Matching
+- Concept for algorithmic student matching based on survey responses
+- "Suggested Friends" page showcasing potential connections
+- Framework for cross-cultural student networking
 
-### `npm run build`
+### Content Hub
+- Blog section featuring student experiences and advice
+- Podcast platform with discussions about international vs Korean student life
+- Content designed to bridge cultural gaps and share experiences
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Interface
+- Design built with React
+- Responsive layout for mobile and desktop
+- Intuitive navigation between platform sections
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React.js
+- **Styling:** CSS3, Tailwind CSS
+- **Deployment:** Vercel
+- **Version Control:** Git/GitHub
 
-### `npm run eject`
+## Project Context
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a **prototype/learning project** from 2023 that demonstrates:
+- React application development
+- Component-based architecture
+- Frontend routing and state management
+- UI/UX design principles
+- Cross-cultural platform concept
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Note:** This is a frontend-only implementation. User data is not persisted, and most features are conceptual demonstrations rather than fully functional systems.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Improvements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Backend integration with user authentication
+- Database implementation for persistent user data
+- Functional matching algorithm based on survey responses
+- Enhanced content management system
+- Real-time messaging between matched students
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-# Notes
-- had to modify the proxy settings in the package.json with the options thing, or else it gave the error with allowedHosts being empty
-- had to install python-dotenv so that my flask could run
-- had to do the cors thing in flask
+*Built with ❤️ for the international student community at SKKU*
